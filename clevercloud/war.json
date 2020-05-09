@@ -1,0 +1,14 @@
+{
+   "build": {
+      "type": "gradle",
+      "goal": "build"
+   },
+   "deploy": {
+      "container": "TOMCAT7",
+      "war": [
+         {
+            "file": "target/SpringMVCwithHibernet.war"
+         }
+      ]
+   }
+}
